@@ -11,7 +11,7 @@ import SwiftUI
 struct FurEverApp: App {
     var body: some Scene {
         WindowGroup {
-            CustomizationView()
+            ContentView()
         }
     }
 }

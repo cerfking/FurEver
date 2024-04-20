@@ -6,8 +6,9 @@
 //
 
 import SwiftUI
-
+import SwiftSpeech
 struct InteractionView: View {
+    @State var text: String = "Hold to Speak"
     var body: some View {
        // NavigationStack {
 //            TabView {
@@ -25,22 +26,24 @@ struct InteractionView: View {
                             .resizable()
                             .scaledToFill()
                         HStack {
-                            TextField("Text Here", text: .constant(""))
+                            TextField(text, text: .constant(""))
                                 .padding()
                                 .background(Color(uiColor: .secondarySystemBackground))
                                 .cornerRadius(150)
-                            Image(systemName: "mic.fill")
-                                .resizable()
-                                .scaledToFill()
-                                .foregroundColor(Color(uiColor: UIColor(red: 252/255, green: 176/255, blue: 68/255, alpha: 1.0)))
-                                .frame(width: 20)
-                                .padding()
+                            SwiftSpeech.RecordButton()                                        // 1. The View Component
+                                .swiftSpeechRecordOnHold()  // 2. The Functional Component
+                                .onRecognizeLatest(update: $text)
+                                
+                           
                         }
                         .padding()
                         .offset(y: -15)
 
                     }
 
+                }
+                .onAppear {
+                    SwiftSpeech.requestSpeechRecognitionAuthorization()
                 }
                                 
                 .edgesIgnoringSafeArea(.top)

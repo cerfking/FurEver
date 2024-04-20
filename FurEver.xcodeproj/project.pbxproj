@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4443DA932BCE246C0095317D /* GLTFKit2 in Frameworks */ = {isa = PBXBuildFile; productRef = 4443DA922BCE246C0095317D /* GLTFKit2 */; };
+		4443DA952BCE24830095317D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4443DA942BCE24830095317D /* ViewController.swift */; };
+		4443DA972BCE26200095317D /* VirtualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4443DA962BCE26200095317D /* VirtualView.swift */; };
+		4443DA992BCE2A650095317D /* Labrador.glb in Resources */ = {isa = PBXBuildFile; fileRef = 4443DA982BCE2A650095317D /* Labrador.glb */; };
+		4443DA9D2BCE34800095317D /* DamagedHelmet.glb in Resources */ = {isa = PBXBuildFile; fileRef = 4443DA9A2BCE2F3B0095317D /* DamagedHelmet.glb */; };
 		446102CB2BC383FA008DD9C1 /* FurEverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446102CA2BC383FA008DD9C1 /* FurEverApp.swift */; };
 		446102CD2BC383FA008DD9C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446102CC2BC383FA008DD9C1 /* ContentView.swift */; };
 		446102CF2BC383FB008DD9C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446102CE2BC383FB008DD9C1 /* Assets.xcassets */; };
@@ -20,9 +25,16 @@
 		446102E52BC4B323008DD9C1 /* InteractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446102E42BC4B323008DD9C1 /* InteractionView.swift */; };
 		446102E72BC4B9D6008DD9C1 /* Herculanum.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 446102E62BC4B9D6008DD9C1 /* Herculanum.ttf */; };
 		446102EA2BC4BD05008DD9C1 /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446102E92BC4BD05008DD9C1 /* PetView.swift */; };
+		44801C6D2BD3310E0042DA55 /* Labrador1.glb in Resources */ = {isa = PBXBuildFile; fileRef = 44801C6C2BD3310E0042DA55 /* Labrador1.glb */; };
+		44FD8C9C2BCDD62000F4FD07 /* LoadingButton in Frameworks */ = {isa = PBXBuildFile; productRef = 44FD8C9B2BCDD62000F4FD07 /* LoadingButton */; };
+		44FD8C9F2BCDFB1300F4FD07 /* SwiftSpeech in Frameworks */ = {isa = PBXBuildFile; productRef = 44FD8C9E2BCDFB1300F4FD07 /* SwiftSpeech */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4443DA942BCE24830095317D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4443DA962BCE26200095317D /* VirtualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualView.swift; sourceTree = "<group>"; };
+		4443DA982BCE2A650095317D /* Labrador.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Labrador.glb; sourceTree = "<group>"; };
+		4443DA9A2BCE2F3B0095317D /* DamagedHelmet.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = DamagedHelmet.glb; sourceTree = "<group>"; };
 		446102C72BC383FA008DD9C1 /* FurEver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FurEver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		446102CA2BC383FA008DD9C1 /* FurEverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurEverApp.swift; sourceTree = "<group>"; };
 		446102CC2BC383FA008DD9C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +50,7 @@
 		446102E62BC4B9D6008DD9C1 /* Herculanum.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Herculanum.ttf; sourceTree = "<group>"; };
 		446102E82BC4BA15008DD9C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		446102E92BC4BD05008DD9C1 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
+		44801C6C2BD3310E0042DA55 /* Labrador1.glb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Labrador1.glb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,12 +58,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44FD8C9F2BCDFB1300F4FD07 /* SwiftSpeech in Frameworks */,
+				44FD8C9C2BCDD62000F4FD07 /* LoadingButton in Frameworks */,
+				4443DA932BCE246C0095317D /* GLTFKit2 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4443DA9C2BCE343F0095317D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		446102BE2BC383FA008DD9C1 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +93,10 @@
 		446102C92BC383FA008DD9C1 /* FurEver */ = {
 			isa = PBXGroup;
 			children = (
+				4443DA9A2BCE2F3B0095317D /* DamagedHelmet.glb */,
+				4443DA982BCE2A650095317D /* Labrador.glb */,
+				44801C6C2BD3310E0042DA55 /* Labrador1.glb */,
+				4443DA9C2BCE343F0095317D /* Models */,
 				446102E82BC4BA15008DD9C1 /* Info.plist */,
 				446102CA2BC383FA008DD9C1 /* FurEverApp.swift */,
 				446102D82BC38791008DD9C1 /* SignInView.swift */,
@@ -81,6 +108,8 @@
 				446102E42BC4B323008DD9C1 /* InteractionView.swift */,
 				446102E92BC4BD05008DD9C1 /* PetView.swift */,
 				446102E22BC4B0DA008DD9C1 /* TestView.swift */,
+				4443DA942BCE24830095317D /* ViewController.swift */,
+				4443DA962BCE26200095317D /* VirtualView.swift */,
 				446102E62BC4B9D6008DD9C1 /* Herculanum.ttf */,
 				446102CE2BC383FB008DD9C1 /* Assets.xcassets */,
 				446102D02BC383FB008DD9C1 /* Preview Content */,
@@ -112,6 +141,11 @@
 			dependencies = (
 			);
 			name = FurEver;
+			packageProductDependencies = (
+				44FD8C9B2BCDD62000F4FD07 /* LoadingButton */,
+				44FD8C9E2BCDFB1300F4FD07 /* SwiftSpeech */,
+				4443DA922BCE246C0095317D /* GLTFKit2 */,
+			);
 			productName = FurEver;
 			productReference = 446102C72BC383FA008DD9C1 /* FurEver.app */;
 			productType = "com.apple.product-type.application";
@@ -140,6 +174,11 @@
 				Base,
 			);
 			mainGroup = 446102BE2BC383FA008DD9C1;
+			packageReferences = (
+				44FD8C9A2BCDD62000F4FD07 /* XCRemoteSwiftPackageReference "LoadingButton" */,
+				44FD8C9D2BCDFB1300F4FD07 /* XCRemoteSwiftPackageReference "SwiftSpeech" */,
+				4443DA912BCE246C0095317D /* XCRemoteSwiftPackageReference "GLTFKit2" */,
+			);
 			productRefGroup = 446102C82BC383FA008DD9C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -154,9 +193,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44801C6D2BD3310E0042DA55 /* Labrador1.glb in Resources */,
 				446102E72BC4B9D6008DD9C1 /* Herculanum.ttf in Resources */,
 				446102D22BC383FB008DD9C1 /* Preview Assets.xcassets in Resources */,
+				4443DA992BCE2A650095317D /* Labrador.glb in Resources */,
 				446102CF2BC383FB008DD9C1 /* Assets.xcassets in Resources */,
+				4443DA9D2BCE34800095317D /* DamagedHelmet.glb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +211,7 @@
 			files = (
 				446102DF2BC39942008DD9C1 /* AccountView.swift in Sources */,
 				446102E52BC4B323008DD9C1 /* InteractionView.swift in Sources */,
+				4443DA952BCE24830095317D /* ViewController.swift in Sources */,
 				446102DB2BC39140008DD9C1 /* SignUpView.swift in Sources */,
 				446102D92BC38791008DD9C1 /* SignInView.swift in Sources */,
 				446102EA2BC4BD05008DD9C1 /* PetView.swift in Sources */,
@@ -176,6 +219,7 @@
 				446102E32BC4B0DA008DD9C1 /* TestView.swift in Sources */,
 				446102CD2BC383FA008DD9C1 /* ContentView.swift in Sources */,
 				446102DD2BC39461008DD9C1 /* HomeView.swift in Sources */,
+				4443DA972BCE26200095317D /* VirtualView.swift in Sources */,
 				446102CB2BC383FA008DD9C1 /* FurEverApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +428,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4443DA912BCE246C0095317D /* XCRemoteSwiftPackageReference "GLTFKit2" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/warrenm/GLTFKit2";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.9;
+			};
+		};
+		44FD8C9A2BCDD62000F4FD07 /* XCRemoteSwiftPackageReference "LoadingButton" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Changemin/LoadingButton";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.2;
+			};
+		};
+		44FD8C9D2BCDFB1300F4FD07 /* XCRemoteSwiftPackageReference "SwiftSpeech" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Cay-Zhang/SwiftSpeech";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4443DA922BCE246C0095317D /* GLTFKit2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4443DA912BCE246C0095317D /* XCRemoteSwiftPackageReference "GLTFKit2" */;
+			productName = GLTFKit2;
+		};
+		44FD8C9B2BCDD62000F4FD07 /* LoadingButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44FD8C9A2BCDD62000F4FD07 /* XCRemoteSwiftPackageReference "LoadingButton" */;
+			productName = LoadingButton;
+		};
+		44FD8C9E2BCDFB1300F4FD07 /* SwiftSpeech */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44FD8C9D2BCDFB1300F4FD07 /* XCRemoteSwiftPackageReference "SwiftSpeech" */;
+			productName = SwiftSpeech;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 446102BF2BC383FA008DD9C1 /* Project object */;
 }

@@ -1,0 +1,33 @@
+{
+  "originHash" : "880d4248230dbf982ac6bf3854c547152dab0d7a4cb11879c864a5f19a2bf9ee",
+  "pins" : [
+    {
+      "identity" : "gltfkit2",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/warrenm/GLTFKit2",
+      "state" : {
+        "revision" : "0227f6df43817c0038f04b2399233ea76907cb6d",
+        "version" : "0.5.9"
+      }
+    },
+    {
+      "identity" : "loadingbutton",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Changemin/LoadingButton",
+      "state" : {
+        "revision" : "5045668df822a04c248a9b40aca888a4d37f275a",
+        "version" : "1.1.2"
+      }
+    },
+    {
+      "identity" : "swiftspeech",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Cay-Zhang/SwiftSpeech",
+      "state" : {
+        "branch" : "master",
+        "revision" : "6e41f289f5ccc1751ef5674972d46b48b326c4c6"
+      }
+    }
+  ],
+  "version" : 3
+}

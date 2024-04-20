@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-     //   NavigationStack {
+       // NavigationStack {
             TabView {
                 PetView()
                 .tabItem {
@@ -36,9 +36,10 @@ struct HomeView: View {
                     //Label("Pet", systemImage: "pawprint.circle")
                 }
             }
+            .navigationBarHidden(true)
             
            // .navigationTitle("FurEver")
-      //  }
+       // }
       
            
         
